@@ -8,6 +8,7 @@ The project is a React App built using Formik, Yup, and Material Design.
 ![Overview of loans calculator](https://storage.googleapis.com/andreassens.appspot.com/Photos/Loans-calculator.png)  
 
 > For a live demo of the project visit [here](https://loans-calculator-dot-andreassens.ew.r.appspot.com)
+
 > The project is also implemented on [lantagarnas.se/mina-lan](https://lantagarnas.se/mina-lan)
 
 ## Features
