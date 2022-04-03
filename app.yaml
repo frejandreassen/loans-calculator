@@ -1,0 +1,18 @@
+runtime: python27
+service: loans-calculator
+threadsafe: true
+
+
+handlers:
+  - url: /static
+    static_dir: build/static
+
+  - url: /(.*\.(json|ico|js|png|xml))$
+    static_files: build/\1
+    upload: build/.*\.(json|ico|js|png|xml)$
+
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html
+    secure: always
+
